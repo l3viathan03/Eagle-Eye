@@ -1,6 +1,6 @@
 # ================================================================================================ #
 #                                                                                                  #
-# OPEN-SOURCE INTELLIGENCE PROJECT: Eagle Eye                                                              #
+# OPEN-SOURCE INTELLIGENCE PROJECT: Eagle Eye                                                      #
 #                                                                                                  #
 # Description: This python script utilize Shodan Open Source Intelligence search engine to query   #
 # data about any public IP address.                                                                #
