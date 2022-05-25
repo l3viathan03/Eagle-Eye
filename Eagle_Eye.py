@@ -65,7 +65,7 @@ loop=True
 
 while loop:          ## While loop which will keep going until loop = False
     print_menu()    ## Displays menu
-    choice = input("Enter your choice [1-4]: ")
+    choice = input("Enter your choice [1-6]: ")
 
     if choice==1:
         print "yawcam has been selected"
