@@ -248,20 +248,6 @@ while loop:          ## While loop which will keep going until loop = False
                 # Print an empty line between summary info
                 print ''
 
-            print 'Shodan Summary Information'
-            print 'Query: %s' % query
-            print 'Total Results: %s\n' % result['total']
-
-            # Print the summary info from the facets
-            for facet in result['facets']:
-                print FACET_TITLES[facet]
-
-                for term in result['facets'][facet]:
-                    print '%s: %s' % (term['value'], term['count'])
-
-                # Print an empty line between summary info
-                print ''
-
             # Open a new file and write the output in it
             file_path = 'Etherium_Miners.txt'
             sys.stdout = open(file_path, "w")
@@ -298,6 +284,20 @@ while loop:          ## While loop which will keep going until loop = False
             # And it also runs faster than doing a search().
             result = api.count(query, facets=FACETS)
 
+            print 'Shodan Summary Information'
+            print 'Query: %s' % query
+            print 'Total Results: %s\n' % result['total']
+
+            # Print the summary info from the facets
+            for facet in result['facets']:
+                print FACET_TITLES[facet]
+
+                for term in result['facets'][facet]:
+                    print '%s: %s' % (term['value'], term['count'])
+
+                # Print an empty line between summary info
+                print ''
+
             # Open a new file and write the output in it
             file_path = 'Apple_AirPlay_Receivers.txt'
             sys.stdout = open(file_path, "w")
@@ -319,7 +319,7 @@ while loop:          ## While loop which will keep going until loop = False
         except Exception, e:
             print 'Error: %s' % e
             sys.exit(1)
-        loop=False # This will make the while loop to end as not value of loop is set to False		
+        loop=False # This will make the while loop to end as not value of loop is set to False
     elif choice==6:
         print "Bye!!"
         ## You can add your code or functions here
