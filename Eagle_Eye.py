@@ -19,7 +19,7 @@ print(
 '*                                                                      * \n'
 '*      OPEN-SOURCE INTELLIGENCE PROJECT | 20151648@stu.uob.edu.bh      * \n'
 '*      Open Source Intelligence search using Shodan API with Python    * \n'
-'*      Created By Yusuf Almahmeed       | V1.2 - 17-4-2022             * \n'
+'*      Created By Yusuf Almahmeed       | V2.0 - 25-5-2022             * \n'
 '*                                                                      * \n'
 '*************************************************************************'
 )
