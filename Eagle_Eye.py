@@ -25,7 +25,7 @@ print(
 )
 
 # Calling Shodan API key
-API_KEY = 'ZQnbdqMFzRswIAyScFlXqooAEyPXAFZ4'
+API_KEY = ''
 
 # The list of properties we want summary information on
 # We only care about the top 3 countries, this is how we let Shodan know to return 3 instead of the
